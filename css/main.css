@@ -1,0 +1,27 @@
+h1, button, div {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+    padding: 10px;
+}
+button {
+    background-color: #A9A9A9;  
+    color:white;  
+}
+
+button:hover {    
+    background-color: white;
+    color: #A9A9A9;   
+}
+
+input {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: #A9A9A9 solid;
+    text-align: center;
+    width: 60px;
+    height: 35px;
+    
+}
